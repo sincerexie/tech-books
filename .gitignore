@@ -1,11 +1,18 @@
-# SublimeText project files
-.vscode
-.DS_Store
-.cache-loader/
+# node modules
 node_modules
-npm-debug.log
-*.rb
-*.happypack
-.babel.cache.json
-.cache-loader
-.market
+
+# MacOS desktop services store
+.DS_Store
+
+# Log files
+*.log
+
+# Editors
+.vscode
+.idea
+
+# VuePress temp directory
+.temp
+
+# Docs dist directory
+dist
