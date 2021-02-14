@@ -8,7 +8,7 @@ search: false
 features:
 - title: 
   details: 
-footer: MIT Licensed | Copyright © 2021-present Sincere Xie
+footer: Apache License 2.0 | Copyright © 2021-present Sincere Xie
 ---
 
 # 📖 Books list
