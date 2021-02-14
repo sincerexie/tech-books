@@ -6,7 +6,7 @@
 set -e
 
 # 生成静态文件
-npm run docs:build
+npm run build
 
 # 创建gh-pages，并部署
 npm run deploy
