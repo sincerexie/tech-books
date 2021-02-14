@@ -9,6 +9,4 @@ set -e
 npm run docs:build
 
 # 创建gh-pages，并部署
-gh-pages -d docs/.vuepress/dist
-
-cd -
+npm run deploy
