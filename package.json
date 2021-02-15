@@ -1,26 +1,28 @@
 {
-  "name": "books",
+  "name": "tech-books",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "gh-pages -d docs/.vuepress/dist"
+  "directories": {
+    "doc": "docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sincerexie/books.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sincerexie/books/issues"
-  },
-  "homepage": "https://github.com/sincerexie/books#readme",
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "vuepress": "^1.8.1"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sincerexie/tech-books.git"
+  },
+  "author": "Sincere Xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sincerexie/tech-books/issues"
+  },
+  "homepage": "https://github.com/sincerexie/tech-books#readme"
 }
