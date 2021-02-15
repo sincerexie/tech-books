@@ -2,7 +2,7 @@
 home: true
 heroImage: home_icon.png
 heroText: Books
-tagline: 🚀 Continuous learning of development techniques.
+tagline: 🚀 Stay Hungry, Stay Foolish.
 sidebar: false
 search: false
 features:
